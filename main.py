@@ -55,9 +55,9 @@ async def start(client, msg):
 
 @app.on_message(
     filters.private
-    & filters.caption
     & ~filters.command(["start", "tr", "send", "stats"])
     & ~filters.group
+    | filters.caption & ~filters.group
 )
 async def translate_pv(client, msg):
     """traduce en el chat privado con el bot"""
@@ -105,17 +105,15 @@ async def traducir_gp(client, msg):
 
         message = msg.reply_to_message.text
 
-        if msg.reply_to_message.caption :
+        if msg.reply_to_message.caption:
 
             message = msg.reply_to_message.caption
-
 
         translate = Translator(message, user_id, user_lang)
 
         await msg.reply_text(langs["traducir_gp"]["text"][bot_lang].format(translate))
 
         return
-
 
     message = langs["traducir_gp"]["alert"][bot_lang]
 
