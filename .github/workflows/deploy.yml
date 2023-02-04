@@ -2,11 +2,13 @@ name: Deploy in vps
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
 
 jobs:
   deploy:
     runs-on: [ubuntu-latest]
+    environment: Production    
     steps:
       - uses: actions/checkout@v1
       - name: Push to server
