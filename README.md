@@ -8,7 +8,7 @@
 
 ## Sobre <a name = "about"></a>
 
-Esto es un bot de telegram lanzado hace ya casi 2 años para traducir mensajes a diferentes idiomas en grupos y en el chat privado con el bot, contruido con python y que actualmente cuenta con alrededor de 3000 usuarios a día de hoy y que a pesar de que telegram ya posee las traducciones incluidas en su aplicación las cifras de usuarios  de este bot siguen creciendo.
+Esto es un bot de telegram lanzado hace ya casi 2 años para traducir mensajes a diferentes idiomas en grupos y en el chat privado con el bot, contruido con python y que actualmente cuenta con más de 3000 usuarios a día de hoy y que a pesar de que telegram ya posee las traducciones incluidas en su aplicación las cifras de usuarios de este bot siguen creciendo.
 
 ## Comenzando <a name = "getting_started"></a>
 
@@ -20,10 +20,7 @@ Python (3.8.10)
 
 git (2.25.1)
 
-
 ### Clonar Repositorio
-
-
 
 ```console
 git clone git@github.com:raulodev/translatebot-tg.git
@@ -42,9 +39,9 @@ Y para terminar cargar las variables de entorno
 
 `TOKEN` : token del bot ([obtener](https://t.me/BotFather))
 
-`API_ID` : api id de tu app  ([obtener](https://my.telegram.org/apps))
+`API_ID` : api id de tu app ([obtener](https://my.telegram.org/apps))
 
-`API_HASH` : api hash de tu app  ([obtener](https://t.me/iDGetInfoBot))
+`API_HASH` : api hash de tu app ([obtener](https://t.me/iDGetInfoBot))
 
 `OWNER` : tu id de usuario en telegram ([obtener](https://my.telegram.org/apps))
 
@@ -53,6 +50,7 @@ Y para terminar cargar las variables de entorno
 ## Uso <a name = "usage"></a>
 
 Una vez terminado con todo el proceso de instalación correr el bot usando :
+
 ```console
 $ python3 main.py
 ```
