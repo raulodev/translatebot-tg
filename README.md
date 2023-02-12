@@ -8,11 +8,7 @@
 
 ## Sobre <a name = "about"></a>
 
-<<<<<<< HEAD
 Esto es un bot de telegram lanzado hace ya casi 2 años para traducir mensajes a diferentes idiomas en grupos y en el chat privado con el bot, contruido con python y que actualmente cuenta con más de 3000 usuarios a día de hoy y que a pesar de que telegram ya posee las traducciones incluidas en su aplicación las cifras de usuarios de este bot siguen creciendo.
-=======
-Esto es un aplicación de telegram lanzado hace ya casi 2 años para traducir mensajes a diferentes idiomas en grupos y en el chat privado, contruido con python y que actualmente cuenta con alrededor de 3000 usuarios a día de hoy y que a pesar de que telegram ya posee las traducciones incluidas en su aplicación las cifras de usuarios  de este bot siguen creciendo diariamente.
->>>>>>> 296c7ae7304b6aae87278ba26c18d7f6011d2a74
 
 ## Comenzando <a name = "getting_started"></a>
 
