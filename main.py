@@ -228,7 +228,7 @@ async def again(client, msg):
         callback_query_id=msg.id, text=langs["again"][bot_lang], show_alert=False
     )
 
-    await msg.edit_message_text(f"<b>{done_msg}</b>\n\n{translate}")
+    await msg.edit_message_text(f"<b>{done_msg}</b>\n\n<code>{translate}</code>")
 
     # actualizar BD
     db.change_alt_lang(user_id, new_user_language)
